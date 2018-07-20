@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>drawing page </title>
+	<link rel="stylesheet" type="text/css" href="artpage.css">
+</head>
+<body>
+	<div class="wrap">
+	<header>
+		<p>henry christus drawing app</p>
+	</header>
+	
+	<nav class="title-bar">
+	<ul>
+		<li> insert sheet
+			<ul class="options">
+				<li class="sheet-size">
+					<label>insert pixel roll</label>
+					<input type="text" name="pixel-roll" id="pixel-roll"> <br><br>
+					<label>insert pixel colum</label>
+					<input type="text" name="pixel-colum" id="pixel-colum"> <br><br>
+					<button id="create"> create </button>
+				</li>
+			</ul>
+		</li>
+		
+		<li class="color"> color 
+			<ul class="options" id="color">
+				<li> 
+					<table>
+						<tr>
+							<td>
+								<button data-file="black" id="black"></button>
+			            		<button data-file="white" id="white"></button>
+			            		<button data-file="brown" id="brown"></button>
+			            		<button data-file="orange" id="orange"></button>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<button data-file="red" id="red"></button>
+			            		<button data-file="green" id="green"></button>
+			            		<button data-file="blue" id="blue"></button>
+			            		<button data-file="silver" id="silver"></button>
+							</td>
+						</tr>
+					</table>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	</nav>
+
+	<div id="table">
+		<table>
+		</table>
+	</div>
+	</div>
+	<script type="text/javascript" src="jquery v3.3.js"></script>
+	<script type="text/javascript" src="artpage.js"></script>
+</body>
+</html>
